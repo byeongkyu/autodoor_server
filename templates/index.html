@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+    </head>
+    <body>
+        <div id="title">Auto Door Controller</div>
+
+        {% for door in door_data %}
+        <form action="/control_by_button" method="POST">
+            <div class="item_list">
+                <div class="door_id">{{ door.door }}</div>
+                <div class="door_name">{{ door.description }}</div>
+                <div class="door_address">{{ door.address }}</div>
+                <div class="door_channel">{{ door.channel }}</div>
+                <button type="submit" value="{{ door.door }}" name="open"> Open </button>
+                <button type="submit" value="{{ door.door }}" name="close"> Close </button>
+            </div>
+        </form>
+        {% endfor %}
+
+        <div id="door_list"></div>
+
+    </body>
+</html>

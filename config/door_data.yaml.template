@@ -1,0 +1,21 @@
+- door: door1
+  description: "903 3.00L1"
+  address: "0.0.0.0"
+  channel: 1
+
+- door: door2
+  description: "903 3.00C1"
+  address: "0.0.0.0"
+  channel: 0
+
+- door: door3
+  description: "902 3.00C3/2"
+  address: "0.0.0.0"
+  channel: 0
+
+- door: door4
+  description: "902 3.00C1"
+  address: "0.0.0.0"
+  channel: 1
+
+

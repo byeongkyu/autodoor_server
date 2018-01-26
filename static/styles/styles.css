@@ -1,0 +1,40 @@
+#title {
+    margin: 20px;
+    text-align: center;
+}
+
+.item_list {
+    display: flex;
+    justify-content: space-around;
+    width:60%;
+    margin:10px;
+}
+
+.door_id {
+    display: block;
+    margin: 10px;
+    width: 40px;
+}
+
+.door_name {
+    color: #f00;
+    margin: 10px;
+    width: 100px;
+}
+
+.door_address {
+    width: 100px;
+    margin: 10px;
+}
+
+.door_channel {
+    margin: 10px;
+    margin: 10px;
+
+}
+
+button {
+    width:80px;
+    height:30px;
+    margin: 5px;
+}
